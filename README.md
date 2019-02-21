@@ -13,6 +13,7 @@ HTML is a ....
 
 ## Live Link
 - file:///C:/Users/TaylorDavids/Desktop/js/display%20data%20types/basic_data_types.html
+- file:///C:/Users/lifechoices/Desktop/js/I%20am%20in%20disarray/rainbow_array.html
 
 ## Prevalent Technologies Used
 
