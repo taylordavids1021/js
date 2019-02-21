@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css style -->
+    <style>
+        /* center text */
+        .main {
+            text-align: center;
+        }
+        /* div border radius */
+        #row1, 
+        #row2, 
+        #row3, 
+        #row4, 
+        #row5, 
+        #row6, 
+        #row7 {
+            border-radius: 20rem 50rem;
+        }
+        /* margin left-right */
+        #row1 {
+            margin: 0 50rem;
+        }
+        #row2 {
+            margin: 0 45rem;
+        }
+        #row3 {
+            margin: 0 40rem;
+        }
+        #row4 {
+            margin: 0 35rem;
+        }
+        #row5 {
+            margin: 0 30rem;
+        }
+        #row6 {
+            margin: 0 25rem;
+        }
+        #row7 {
+            margin: 0 20rem;
+        }
+    </style>
+    <!-- end of style -->
+</head>
+<body>
+    <!-- rainbow colors red, orange, yellow, green, blue, indigo, violet -->
+    <!--  div container -->
+    <div class="main">
+        <!-- div to seperate the colors -->
+        <!-- red -->
+        <div id="row1" onclick="redFunction()"> 
+            Red
+        </div>
+
+        <!-- orange -->
+        <div id="row2" onclick="orangeFunction()"> 
+            Orange
+        </div>
+
+        <!-- yellow -->
+        <div id="row3" onclick="yellowFunction()"> 
+            Yellow
+        </div>
+
+        <!-- green -->
+        <div id="row4" onclick="greenFunction()"> 
+            Green
+        </div>
+
+        <!-- blue -->
+        <div id="row5" onclick="blueFunction()"> 
+            Blue
+        </div>
+
+        <!-- indigo -->
+        <div id="row6" onclick="indigoFunction()"> 
+            Indigo
+        </div>
+
+        <!-- violet -->
+        <div id="row7" onclick="violetFunction()"> 
+            Violet
+        </div>
+    </div>
+    <!-- end of div -->
+
+
+    <!-- JavaScript style -->
+    <script>
+        // function for each div // give the background color to each row 
+        function redFunction() {
+            document.getElementById('row1').style.backgroundColor='red'; //red
+        }
+        function orangeFunction() {
+            document.getElementById('row2').style.backgroundColor='orange'; //orange
+        }
+        function yellowFunction() {
+            document.getElementById('row3').style.backgroundColor='yellow'; //yellow
+        }
+        function greenFunction() {
+            document.getElementById('row4').style.backgroundColor='green'; //green
+        }
+        function blueFunction() {
+            document.getElementById('row5').style.backgroundColor='blue'; //blue
+        }
+        function indigoFunction() {
+            document.getElementById('row6').style.backgroundColor='indigo'; //indigo
+        }
+        function violetFunction() {
+            document.getElementById('row7').style.backgroundColor='violet'; //violet
+        }
+    </script>
+    <!-- end of style -->
+</body>
+</html>
